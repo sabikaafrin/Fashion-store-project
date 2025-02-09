@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+    <link rel="stylesheet" href="/assets/css/store.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h1>Welcome to Fashion Glow <br> By Sabika Afrin</h1>
+            <form>
+                <div class="input-group">
+                    <label for="username">Username/Email</label>
+                    <input type="text" id="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <div class="password-container">
+                        <input type="password" id="password" required>
+                        <span class="toggle-password" onclick="togglePasswordVisibility()">👁️</span>
+                    </div>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="back-home">
+        <a href="/index.html"><button>Back to Home</button></a>
+    </div>
+</body>
+<script src="/assets/store.js"></script>
+
+</html>

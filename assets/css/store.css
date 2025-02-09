@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+}
+.navbar i {
+  color: #fff;
+}
+
+/* navbar */
+.navbar {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.25rem;
+  cursor: pointer;
+  background-color: rgb(187, 120, 158);
+}
+
+#logo {
+  background-image: url(/assets/image/fashion\ glow\ logo.jpg);
+  background-size: cover;
+  height: 100px;
+  width: 140px;
+}
+.about-us {
+  display: flex;
+  gap: 30px;
+}
+
+select {
+  border: none;
+  border-bottom: 2px solid rgb(203, 203, 203);
+  font-size: 1.25rem;
+  background-color: rgb(187, 120, 158);
+  cursor: pointer;
+  color: white;
+  margin-left: 10px;
+}
+
+/* navbar2 */
+.option {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  background-color: rgb(250, 233, 242);
+  position: sticky;
+  top: 0;
+}
+.option a {
+  font-size: 1.15rem;
+  color: rgb(126, 129, 132);
+}
+.option a:hover {
+  color: rgb(197, 107, 165);
+  transform: scale(1.4);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* banner image */
+.banner-image {
+  height: 900px;
+  padding: 20px;
+  background-image: url(/assets/image/banner\ image.jpg);
+  background-size: cover;
+  color: rgb(203, 171, 195);
+  font-size: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-image i {
+  color: rgb(197, 107, 165);
+}
+
+/* shopping section */
+.shopping-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white;
+}
+.box {
+  height: 400px;
+  width: 380px;
+  background-color: rgb(250, 233, 242);
+  padding: 20px 0px 35px;
+  margin-top: 20px;
+  text-align: center;
+}
+.box h2 {
+  cursor: pointer;
+}
+.content a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 360px;
+  margin-bottom: 5px;
+}
+.image1 {
+  background-image: url(/assets/image/dress.jpg);
+}
+.image2 {
+  background-image: url(/assets/image/saree.webp);
+}
+.image3 {
+  background-image: url(/assets/image/lehenga.webp);
+}
+.image4 {
+  background-image: url(/assets/image/n.jpg);
+}
+.image5 {
+  background-image: url(/assets/image/makeup.jpg);
+}
+.image6 {
+  background-image: url(/assets/image/hair\ &\ skincare.jpg);
+}
+
+.login a:hover,
+.cart-logo a:hover,
+.contact a:hover,
+.content a:hover,
+.back-top p:hover,
+.sign-in button:hover {
+  color: green;
+  transform: scale(1.1);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* delivery section */
+.final {
+  margin-top: 25px;
+  background-image: url(/assets/image/background.jpg);
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.final i {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.final p {
+  font-size: x-large;
+}
+
+/* back to top */
+.back-top {
+  background-color: rgb(250, 233, 242);
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 15px;
+}
+.back-top p {
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* sign in */
+.sign-in {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.sign-in button {
+  cursor: pointer;
+  background-color: rgb(244, 244, 112);
+  font-weight: bold;
+  border: 2px solid rgb(234, 209, 163);
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin: 5px;
+}
+.sign-in a {
+  color: blue;
+}
+
+/* footer */
+.footer-panel2 {
+  background-color: rgb(187, 120, 158);
+  color: white;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+.footer-panel2 a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+.footer-panel2 h3 {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#footer-follow i {
+  padding-right: 15px;
+  padding-top: 10px;
+  font-size: 1.4rem;
+}
+.footer-panel3 {
+  height: 25px;
+  background-color: rgb(250, 233, 242);
+  text-align: center;
+  color: black;
+  font-size: 0.85rem;
+  padding: 15px;
+}
+
+/* other pages */
+/* login */
+.container {
+  background-color: #555;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.login-box {
+  background: #eae6e6;
+  padding: 20px;
+  border-radius: 5px;
+  width: 350px;
+}
+
+.login-box h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6e2013;
+  font-size: 22px;
+}
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-70%);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.login-box label {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background: #ff6347;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e04a33;
+}
+
+/* Add cart */
+.cart {
+  background-color: rgb(168, 187, 187);
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 25px;
+  border-radius: 10px;
+}
+.cart h2 {
+  text-align: center;
+  margin: 0 0 10px;
+}
+.cart p {
+  margin-top: 8px;
+}
+.cart button {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+/* Back to home */
+.back-home button {
+  text-align: center;
+  margin-top: 60px;
+  padding: 5px;
+  font-size: larger;
+  background-color: lavender;
+}
+.back-home button:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+  color: rgb(255, 254, 254);
+  border: none;
+  transform: scale(1.2);
+}
+
+/* other page style */
+.heading {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.shopping-image {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(248, 241, 231);
+  padding-bottom: 15px;
+}
+.coloum,
+.back-home {
+  text-align: center;
+}
+.coloum p {
+  margin-bottom: 5px;
+}
+.coloum img {
+  margin-bottom: 10px;
+  width: 300px;
+  height: 420px;
+  object-fit: cover;
+}
+.coloum button {
+  padding: 5px;
+}
+.coloum button:hover {
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
